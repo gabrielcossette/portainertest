@@ -49,6 +49,8 @@ services:
 
    nginx:
      image: "nginx"
+     volumes:
+       - "nginx:/var/www/html"
 
 volumes:
     db_data:
