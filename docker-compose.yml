@@ -11,6 +11,7 @@ services:
        MYSQL_DATABASE: wordpress
        MYSQL_USER: wordpress
        MYSQL_PASSWORD: wordpress
+       TEST_VAR: test
 
    wordpress:
      image: wordpress:6.2
